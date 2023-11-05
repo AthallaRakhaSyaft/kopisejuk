@@ -27,14 +27,40 @@
             <a href="#home">Home</a>
             <a href="#about">Tentang Kami</a>
             <a href="#menu">Menu</a>
+            <a href="#products">Produk</a>
             <a href="#contact">Kontak</a>
         </div>
 
          <div class="navbar-extra">
-             <a href="#" id="search"><i data-feather="search"></i>></a>
-             <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i>></a>
-             <a href="#" id="hamburger-menu"><i data-feather="menu"></i>></a>
+             <a href="#menu" id="search-button"><i data-feather="search"></i>></a>
+             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDtNE1NSOnrTPfgdFyR4oYUuT9nnY0ZjB11W9gpOmKFxBdGg/viewform?usp=sf_link" id="shopping-cart"><i data-feather="shopping-cart"></i>></a>
+             <a href="#contact" id="hamburger-menu"><i data-feather="menu"></i>></a>
          </div>
+
+         <!-- Search Form start -->
+        <!-- <div class="search-form">
+             <input type="search" id="search-box" placeholder="search here...">
+             <label for="search-box"><i data-feather="search"></i></label>
+         </div> -->
+
+         <!-- Shopping Cart end -->
+         <div class="shopping-cart">
+             <div class="cart-item"></div>
+                <img src="img/menu/1.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Espresso</h3>
+                    <div class="item-price">IDR 18K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            <div class="cart-item"></div>
+                <img src="img/menu/2.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Capuccino</h3>
+                    <div class="item-price">IDR 23K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+         </div>
+
     </nav>
     <!-- Navbar end -->
 
@@ -69,7 +95,7 @@
         <p>Silahkan pilih makanan atau minuman yang kami sediakan!</p>
     </section>
     
-            <div class="row">
+            <center><div class="row">
                 <br><div class="menu-card">
                     <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
                     <h3 class="menu-card-title">- Espresso -</h3>
@@ -100,9 +126,94 @@
                     <h3 class="menu-card-title">- Kopi Sejuk Spesial -</h3>
                     <p class="menu-card-price">IDR 24K</p>
                 </div></br>
-            </div>
+            </div></center>
     </section>
     <!-- Menu Section end -->
+
+    <!-- Product Section start -->
+    <center><section id="products" class="products">
+        <h2><span>Produk Unggulan</span> Kami</h2>
+        <p>Semua produk yang kami sediakan sudah berkualitas walaupun harga murah tetapi menu yang disediakan sudah terjamin.</p>
+    </section></center>
+
+    <center>
+        <div class="row">
+            <div class="product-card"></div>
+            <br>
+            <div class="product-icons"></div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDtNE1NSOnrTPfgdFyR4oYUuT9nnY0ZjB11W9gpOmKFxBdGg/viewform?usp=sf_link"><i data-feather="shopping-cart"></i></a>
+            <a href="#home" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div></br>
+        <div class="product-image">
+            <img src="img/menu/2.jpg" alt="Produk 1">
+        </div>
+        <div class="product-content">
+            <h3>Capuccino</h3>
+            <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 23K <span> FROM </span> IDR 48K</div>
+        </div>
+        </div>
+    </center>
+    <center>
+        <div class="row">
+            <div class="product-card"></div>
+            <br>
+            <div class="product-icons"></div>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfDtNE1NSOnrTPfgdFyR4oYUuT9nnY0ZjB11W9gpOmKFxBdGg/viewform?usp=sf_link"><i
+                    data-feather="shopping-cart"></i></a>
+            <a href="#home" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div></br>
+        <div class="product-image">
+            <img src="img/menu/3.jpg" alt="Produk 1">
+        </div>
+        <div class="product-content">
+            <h3>Mocha</h3>
+            <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 26K <span> FROM </span> IDR 35K</div>
+        </div>
+        </div>
+    </center>
+    <center>
+        <div class="row">
+            <div class="product-card"></div>
+            <br>
+            <div class="product-icons"></div>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfDtNE1NSOnrTPfgdFyR4oYUuT9nnY0ZjB11W9gpOmKFxBdGg/viewform?usp=sf_link"><i
+                    data-feather="shopping-cart"></i></a>
+            <a href="#home" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div></br>
+        <div class="product-image">
+            <img src="img/menu/4.jpg" alt="Produk 1">
+        </div>
+        <div class="product-content">
+            <h3>Fresh Roasted Coffee</h3>
+            <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 27K <span> FROM </span> IDR 31K</div>
+        </div>
+        </div>
+    </center>
+        
+    <!-- Products Section end -->
 
     <!-- Contact Section start -->
     <section id="contact" class="contact">
@@ -148,14 +259,35 @@
             <a href="#home">Home</a>
             <a href="#about">Tentang Kami</a>
             <a href="#menu">Menu</a>
+            <a href="#products">Produk</a>
             <a href="#contact">Kontak</a>
         </div></center></br>
 
-        <div class="credit">
-            <center><p>Created by <a href="">kopisejuk</a>. | &copy; 2023.</p></center>
-        </div>
     </footter>
     <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="mocal" id="item-detail-modal">
+        <div class="modal-container">
+            <a href="#" class="close-icon"><i data-feather="x"></i></a>
+            <div class="modal-content"></div>
+            <img src="img/menu/1.jpg" alt="Espresso">
+            <div class="product-content">
+                <h3>Espresso</h3>
+                <p>Kopi asli yang berkualitas dan menikmati suasana yang nyaman.</p>
+                <div class="product-stars">
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                </div>
+                <div class="product-price">IDR 23K <span> FROM </span>IDR 48K</div>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDtNE1NSOnrTPfgdFyR4oYUuT9nnY0ZjB11W9gpOmKFxBdGg/viewform?usp=sf_link"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
 
     <!-- Feather Icons -->
     <script>
@@ -164,5 +296,10 @@
 
     <!-- My Javascript -->
     <script src="js/script.js"></script>
+    <div class="credit">
+        <center>
+            <p>Created by <a href="">kopisejuk</a>. | &copy; 2023.</p>
+        </center>
+    </div>
 </body>
 </html>
